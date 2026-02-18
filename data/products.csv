@@ -1,0 +1,201 @@
+product_id,product_name,product_category,brand,supplier_name,base_cost_usd,launch_date,is_active
+PROD0001,UltraSound Headphones X100,Electronics,SonicPro,GlobalTech Ltd,1218.59,2020-10-12,TRUE
+PROD0002,SmartVision 4K TV X100,Electronics,SonicPro,NextGen Supply,189.21,2020-03-02,TRUE
+PROD0003,SmartWatch Series X100,Electronics,SonicPro,DigitalWave Corp,418.36,2023-02-23,TRUE
+PROD0004,Wireless Gaming Mouse X100,Electronics,VisionX,NextGen Supply,712.19,2021-07-23,TRUE
+PROD0005,Pro Laptop Gen X100,Electronics,SonicPro,DigitalWave Corp,1150.32,2020-11-14,TRUE
+PROD0006,Bluetooth Speaker Max X100,Electronics,VisionX,SoundSphere Inc,213.23,2022-01-05,TRUE
+PROD0007,Noise-Cancel Earbuds X100,Electronics,TechCore,NextGen Supply,468.46,2022-07-29,FALSE
+PROD0008,Smart Home Hub X100,Electronics,ByteEdge,GlobalTech Ltd,1582.72,2023-02-04,TRUE
+PROD0009,Portable Charger Pro X100,Electronics,TechCore,NextGen Supply,1444.87,2021-01-28,TRUE
+PROD0010,4K Action Camera X100,Electronics,SonicPro,GlobalTech Ltd,1092.34,2020-06-12,TRUE
+PROD0011,Mechanical Keyboard X100,Electronics,VisionX,GlobalTech Ltd,650.25,2024-09-04,TRUE
+PROD0012,Gaming Monitor Ultra X100,Electronics,TechCore,DigitalWave Corp,634.61,2021-06-30,TRUE
+PROD0013,Wireless Charging Pad X100,Electronics,SonicPro,NextGen Supply,1051.0,2021-05-16,TRUE
+PROD0014,Smart Doorbell Cam X100,Electronics,VisionX,CircuitHub Co,649.19,2023-08-03,TRUE
+PROD0015,Tablet Pro X100,Electronics,ByteEdge,DigitalWave Corp,1129.06,2024-05-08,TRUE
+PROD0016,VR Headset Lite X100,Electronics,SonicPro,DigitalWave Corp,1344.78,2022-04-01,TRUE
+PROD0017,Wi-Fi Mesh Router X100,Electronics,TechCore,GlobalTech Ltd,384.27,2024-11-29,TRUE
+PROD0018,External SSD Drive X100,Electronics,TechCore,DigitalWave Corp,1083.18,2023-08-09,TRUE
+PROD0019,Smart LED Strip X100,Electronics,NovaTech,DigitalWave Corp,469.02,2023-02-23,TRUE
+PROD0020,Drone Mini Pro X100,Electronics,ByteEdge,SoundSphere Inc,1227.18,2023-04-10,TRUE
+PROD0021,Smart Thermostat X100,Electronics,NovaTech,SoundSphere Inc,397.38,2022-11-09,TRUE
+PROD0022,Fitness Tracker Band X100,Electronics,NovaTech,GlobalTech Ltd,1240.97,2020-11-09,TRUE
+PROD0023,Digital Drawing Tablet X100,Electronics,VisionX,CircuitHub Co,990.35,2023-05-05,TRUE
+PROD0024,Webcam 4K Studio X100,Electronics,NovaTech,NextGen Supply,447.85,2020-01-24,TRUE
+PROD0025,Portable Projector X100,Electronics,SonicPro,NextGen Supply,1233.26,2021-11-27,TRUE
+PROD0026,Smart Air Purifier X100,Electronics,SonicPro,SoundSphere Inc,736.17,2024-01-18,TRUE
+PROD0027,Robot Vacuum X X100,Electronics,TechCore,NextGen Supply,1250.69,2020-08-05,TRUE
+PROD0028,Smart Fridge Panel X100,Electronics,TechCore,NextGen Supply,1010.11,2024-04-10,TRUE
+PROD0029,Electric Toothbrush Pro X100,Electronics,VisionX,NextGen Supply,1551.88,2020-01-02,TRUE
+PROD0030,Smart Scale X100,Electronics,ByteEdge,SoundSphere Inc,820.83,2022-01-13,TRUE
+PROD0031,UltraSound Headphones V2,Electronics,TechCore,DigitalWave Corp,143.59,2020-06-10,TRUE
+PROD0032,SmartVision 4K TV V2,Electronics,SonicPro,CircuitHub Co,1335.7,2022-12-26,TRUE
+PROD0033,SmartWatch Series V2,Electronics,VisionX,DigitalWave Corp,1089.96,2020-12-04,TRUE
+PROD0034,Wireless Gaming Mouse V2,Electronics,TechCore,NextGen Supply,1424.4,2021-03-09,TRUE
+PROD0035,Pro Laptop Gen V2,Electronics,ByteEdge,DigitalWave Corp,1173.61,2023-10-07,TRUE
+PROD0036,Bluetooth Speaker Max V2,Electronics,TechCore,CircuitHub Co,1467.14,2021-05-22,TRUE
+PROD0037,Noise-Cancel Earbuds V2,Electronics,VisionX,GlobalTech Ltd,584.14,2021-04-16,TRUE
+PROD0038,Smart Home Hub V2,Electronics,ByteEdge,DigitalWave Corp,63.81,2020-04-30,TRUE
+PROD0039,Portable Charger Pro V2,Electronics,VisionX,GlobalTech Ltd,1476.27,2020-05-25,TRUE
+PROD0040,4K Action Camera V2,Electronics,ByteEdge,DigitalWave Corp,490.41,2023-01-09,TRUE
+PROD0041,Mechanical Keyboard V2,Electronics,VisionX,NextGen Supply,958.59,2022-08-26,TRUE
+PROD0042,Gaming Monitor Ultra V2,Electronics,NovaTech,DigitalWave Corp,200.83,2021-12-26,TRUE
+PROD0043,Wireless Charging Pad V2,Electronics,NovaTech,CircuitHub Co,786.9,2023-10-11,TRUE
+PROD0044,Smart Doorbell Cam V2,Electronics,SonicPro,GlobalTech Ltd,685.62,2024-10-30,TRUE
+PROD0045,Tablet Pro V2,Electronics,SonicPro,DigitalWave Corp,353.78,2020-10-14,TRUE
+PROD0046,VR Headset Lite V2,Electronics,NovaTech,DigitalWave Corp,490.51,2020-06-03,TRUE
+PROD0047,Wi-Fi Mesh Router V2,Electronics,NovaTech,NextGen Supply,206.46,2023-01-12,TRUE
+PROD0048,External SSD Drive V2,Electronics,SonicPro,GlobalTech Ltd,1509.21,2020-12-06,TRUE
+PROD0049,Smart LED Strip V2,Electronics,NovaTech,CircuitHub Co,809.44,2020-04-30,TRUE
+PROD0050,Drone Mini Pro V2,Electronics,VisionX,CircuitHub Co,55.89,2024-05-24,TRUE
+PROD0051,Smart Thermostat V2,Electronics,NovaTech,SoundSphere Inc,717.68,2024-05-23,TRUE
+PROD0052,Fitness Tracker Band V2,Electronics,ByteEdge,CircuitHub Co,295.92,2020-04-29,TRUE
+PROD0053,Digital Drawing Tablet V2,Electronics,ByteEdge,NextGen Supply,148.36,2020-04-12,TRUE
+PROD0054,Webcam 4K Studio V2,Electronics,ByteEdge,CircuitHub Co,843.23,2020-11-18,TRUE
+PROD0055,Portable Projector V2,Electronics,SonicPro,NextGen Supply,178.48,2023-05-03,TRUE
+PROD0056,Smart Air Purifier V2,Electronics,SonicPro,DigitalWave Corp,687.44,2023-03-12,TRUE
+PROD0057,Robot Vacuum X V2,Electronics,VisionX,NextGen Supply,987.38,2022-05-08,TRUE
+PROD0058,Smart Fridge Panel V2,Electronics,ByteEdge,NextGen Supply,874.58,2021-02-22,TRUE
+PROD0059,Electric Toothbrush Pro V2,Electronics,TechCore,DigitalWave Corp,470.18,2023-08-14,TRUE
+PROD0060,Smart Scale V2,Electronics,TechCore,CircuitHub Co,549.69,2020-05-28,TRUE
+PROD0061,Classic Slim Jeans X100,Fashion,UrbanThread,FastFashion Supply,164.82,2020-07-23,TRUE
+PROD0062,Floral Summer Dress X100,Fashion,UrbanThread,LuxFabrics Corp,62.31,2021-12-15,TRUE
+PROD0063,Leather Biker Jacket X100,Fashion,UrbanThread,TextilePro Ltd,101.59,2024-09-03,TRUE
+PROD0064,Casual Hoodie XL X100,Fashion,ModaFlex,GlobalApparel Inc,162.43,2023-09-01,TRUE
+PROD0065,Formal Oxford Shirt X100,Fashion,ModaFlex,FabricWorld Co,176.55,2023-09-20,TRUE
+PROD0066,High-Waist Yoga Pants X100,Fashion,UrbanThread,TextilePro Ltd,75.2,2024-02-29,TRUE
+PROD0067,Wool Blend Coat X100,Fashion,ModaFlex,TextilePro Ltd,77.18,2024-01-09,TRUE
+PROD0068,Graphic Tee Pack X100,Fashion,StyleHub,TextilePro Ltd,181.48,2022-11-01,TRUE
+PROD0069,Ankle Boots Premium X100,Fashion,TrendSet,GlobalApparel Inc,236.22,2020-07-08,TRUE
+PROD0070,Running Sneakers Air X100,Fashion,TrendSet,GlobalApparel Inc,19.83,2020-09-24,TRUE
+PROD0071,Silk Evening Blouse X100,Fashion,StyleHub,TextilePro Ltd,194.98,2022-05-25,TRUE
+PROD0072,Cargo Shorts X100,Fashion,ModaFlex,FabricWorld Co,36.86,2023-11-16,TRUE
+PROD0073,Knitted Turtleneck X100,Fashion,LuxeWear,LuxFabrics Corp,17.8,2023-02-05,TRUE
+PROD0074,Denim Skirt X100,Fashion,LuxeWear,FastFashion Supply,40.77,2024-06-18,TRUE
+PROD0075,Linen Trousers X100,Fashion,UrbanThread,GlobalApparel Inc,61.53,2020-07-29,TRUE
+PROD0076,Puffer Vest X100,Fashion,StyleHub,LuxFabrics Corp,230.89,2023-06-25,TRUE
+PROD0077,Wrap Maxi Dress X100,Fashion,LuxeWear,TextilePro Ltd,225.98,2024-07-18,TRUE
+PROD0078,Chinos Slim Fit X100,Fashion,LuxeWear,FastFashion Supply,14.98,2021-11-11,TRUE
+PROD0079,Trench Coat Classic X100,Fashion,TrendSet,TextilePro Ltd,75.78,2020-08-09,TRUE
+PROD0080,Sports Bra Pro X100,Fashion,TrendSet,FabricWorld Co,224.47,2024-07-30,TRUE
+PROD0081,Classic Slim Jeans V2,Fashion,TrendSet,GlobalApparel Inc,85.43,2021-04-11,TRUE
+PROD0082,Floral Summer Dress V2,Fashion,LuxeWear,FabricWorld Co,174.58,2021-07-24,TRUE
+PROD0083,Leather Biker Jacket V2,Fashion,UrbanThread,GlobalApparel Inc,96.98,2023-10-23,TRUE
+PROD0084,Casual Hoodie XL V2,Fashion,ModaFlex,GlobalApparel Inc,244.73,2021-06-18,TRUE
+PROD0085,Formal Oxford Shirt V2,Fashion,LuxeWear,LuxFabrics Corp,250.59,2020-08-10,TRUE
+PROD0086,High-Waist Yoga Pants V2,Fashion,ModaFlex,FastFashion Supply,95.6,2022-06-12,TRUE
+PROD0087,Wool Blend Coat V2,Fashion,ModaFlex,LuxFabrics Corp,37.81,2021-01-24,TRUE
+PROD0088,Graphic Tee Pack V2,Fashion,StyleHub,FabricWorld Co,186.83,2024-07-09,FALSE
+PROD0089,Ankle Boots Premium V2,Fashion,ModaFlex,TextilePro Ltd,100.26,2023-09-22,TRUE
+PROD0090,Running Sneakers Air V2,Fashion,StyleHub,LuxFabrics Corp,87.62,2024-01-14,TRUE
+PROD0091,Silk Evening Blouse V2,Fashion,StyleHub,LuxFabrics Corp,86.46,2022-04-04,TRUE
+PROD0092,Cargo Shorts V2,Fashion,StyleHub,LuxFabrics Corp,40.73,2022-02-15,TRUE
+PROD0093,Knitted Turtleneck V2,Fashion,LuxeWear,LuxFabrics Corp,151.74,2024-09-03,TRUE
+PROD0094,Denim Skirt V2,Fashion,UrbanThread,GlobalApparel Inc,80.84,2023-04-02,TRUE
+PROD0095,Linen Trousers V2,Fashion,ModaFlex,GlobalApparel Inc,125.58,2021-03-13,TRUE
+PROD0096,Puffer Vest V2,Fashion,ModaFlex,FastFashion Supply,208.18,2024-02-16,TRUE
+PROD0097,Wrap Maxi Dress V2,Fashion,LuxeWear,FabricWorld Co,80.05,2023-06-22,TRUE
+PROD0098,Chinos Slim Fit V2,Fashion,StyleHub,FabricWorld Co,214.38,2023-10-09,TRUE
+PROD0099,Trench Coat Classic V2,Fashion,StyleHub,TextilePro Ltd,211.4,2020-04-04,TRUE
+PROD0100,Sports Bra Pro V2,Fashion,LuxeWear,FastFashion Supply,162.33,2022-07-21,TRUE
+PROD0101,Classic Slim Jeans Pro,Fashion,TrendSet,LuxFabrics Corp,57.6,2022-10-09,TRUE
+PROD0102,Floral Summer Dress Pro,Fashion,TrendSet,TextilePro Ltd,45.83,2024-03-17,TRUE
+PROD0103,Leather Biker Jacket Pro,Fashion,UrbanThread,FastFashion Supply,63.73,2023-11-26,TRUE
+PROD0104,Casual Hoodie XL Pro,Fashion,ModaFlex,FastFashion Supply,21.37,2024-10-03,TRUE
+PROD0105,Formal Oxford Shirt Pro,Fashion,UrbanThread,FastFashion Supply,42.25,2022-12-23,TRUE
+PROD0106,Memory Foam Mattress X100,Home,UrbanNest,LivingSpace Corp,133.3,2022-06-25,TRUE
+PROD0107,Bamboo Cutting Board X100,Home,UrbanNest,LivingSpace Corp,174.45,2022-07-02,TRUE
+PROD0108,Ceramic Dinner Set X100,Home,HomePure,KitchenPlus Supply,183.23,2024-09-16,TRUE
+PROD0109,Stainless Steel Cookware X100,Home,CozyLiving,LivingSpace Corp,196.21,2022-06-19,TRUE
+PROD0110,LED Floor Lamp X100,Home,NestCraft,DecorWorld Co,102.17,2023-01-11,TRUE
+PROD0111,Cotton Duvet Set X100,Home,NestCraft,FurnishPro Ltd,70.71,2020-11-08,TRUE
+PROD0112,Wall-Mount Shelf X100,Home,HomePure,HomeGoods Global,169.99,2022-08-12,TRUE
+PROD0113,Non-Stick Frying Pan X100,Home,ArtisanHome,HomeGoods Global,91.77,2024-04-25,TRUE
+PROD0114,Electric Kettle Pro X100,Home,UrbanNest,HomeGoods Global,336.13,2022-02-18,TRUE
+PROD0115,Air Fryer Deluxe X100,Home,ArtisanHome,HomeGoods Global,368.47,2022-03-09,TRUE
+PROD0116,Wooden Coffee Table X100,Home,ArtisanHome,LivingSpace Corp,295.07,2023-05-20,TRUE
+PROD0117,Blackout Curtains X100,Home,HomePure,KitchenPlus Supply,96.5,2020-02-29,TRUE
+PROD0118,Storage Ottoman X100,Home,ArtisanHome,DecorWorld Co,265.5,2024-01-23,TRUE
+PROD0119,Bathroom Mirror LED X100,Home,HomePure,KitchenPlus Supply,359.75,2022-12-29,TRUE
+PROD0120,Scented Candle Set X100,Home,NestCraft,KitchenPlus Supply,236.55,2020-06-20,TRUE
+PROD0121,Cast Iron Skillet X100,Home,ArtisanHome,FurnishPro Ltd,339.94,2021-06-16,TRUE
+PROD0122,Blender Pro 1000W X100,Home,ArtisanHome,DecorWorld Co,93.58,2024-04-07,TRUE
+PROD0123,French Press Coffee X100,Home,ArtisanHome,DecorWorld Co,296.76,2021-05-31,TRUE
+PROD0124,Throw Blanket Knit X100,Home,NestCraft,KitchenPlus Supply,21.29,2021-12-17,TRUE
+PROD0125,Herb Garden Kit X100,Home,HomePure,HomeGoods Global,307.74,2024-03-24,TRUE
+PROD0126,Memory Foam Mattress V2,Home,NestCraft,FurnishPro Ltd,88.96,2020-11-08,FALSE
+PROD0127,Bamboo Cutting Board V2,Home,HomePure,FurnishPro Ltd,192.06,2021-03-22,TRUE
+PROD0128,Ceramic Dinner Set V2,Home,ArtisanHome,DecorWorld Co,302.35,2023-05-28,TRUE
+PROD0129,Stainless Steel Cookware V2,Home,NestCraft,FurnishPro Ltd,376.74,2020-02-22,TRUE
+PROD0130,LED Floor Lamp V2,Home,CozyLiving,LivingSpace Corp,268.68,2022-03-23,TRUE
+PROD0131,Cotton Duvet Set V2,Home,HomePure,HomeGoods Global,236.63,2021-05-12,TRUE
+PROD0132,Wall-Mount Shelf V2,Home,NestCraft,DecorWorld Co,333.71,2020-09-04,TRUE
+PROD0133,Non-Stick Frying Pan V2,Home,UrbanNest,HomeGoods Global,144.55,2022-01-28,TRUE
+PROD0134,Electric Kettle Pro V2,Home,NestCraft,LivingSpace Corp,257.48,2022-05-10,FALSE
+PROD0135,Air Fryer Deluxe V2,Home,ArtisanHome,HomeGoods Global,177.0,2024-12-30,TRUE
+PROD0136,Wooden Coffee Table V2,Home,ArtisanHome,FurnishPro Ltd,177.74,2023-08-25,TRUE
+PROD0137,Blackout Curtains V2,Home,CozyLiving,LivingSpace Corp,317.88,2022-09-17,TRUE
+PROD0138,Storage Ottoman V2,Home,ArtisanHome,KitchenPlus Supply,324.48,2021-10-22,TRUE
+PROD0139,Bathroom Mirror LED V2,Home,HomePure,HomeGoods Global,118.88,2024-03-16,TRUE
+PROD0140,Scented Candle Set V2,Home,ArtisanHome,LivingSpace Corp,243.48,2020-02-28,TRUE
+PROD0141,Cast Iron Skillet V2,Home,ArtisanHome,DecorWorld Co,82.37,2024-06-21,TRUE
+PROD0142,Blender Pro 1000W V2,Home,CozyLiving,DecorWorld Co,119.15,2024-12-07,TRUE
+PROD0143,French Press Coffee V2,Home,CozyLiving,LivingSpace Corp,17.82,2020-06-24,TRUE
+PROD0144,Throw Blanket Knit V2,Home,HomePure,KitchenPlus Supply,197.71,2023-11-15,TRUE
+PROD0145,Herb Garden Kit V2,Home,ArtisanHome,KitchenPlus Supply,182.51,2021-08-25,FALSE
+PROD0146,Vitamin C Serum 30ml X100,Beauty,PureSkin,GlowSupply Corp,82.02,2023-04-06,TRUE
+PROD0147,Hydrating Face Mask X100,Beauty,LuminaBeauty,GlowSupply Corp,66.32,2024-03-07,TRUE
+PROD0148,Retinol Night Cream X100,Beauty,VelvetTouch,NaturalBlend Co,43.43,2021-09-19,TRUE
+PROD0149,SPF 50 Sunscreen X100,Beauty,LuminaBeauty,CosmeticsPro Inc,17.19,2020-09-01,TRUE
+PROD0150,Micellar Cleansing Water X100,Beauty,VelvetTouch,CosmeticsPro Inc,25.24,2021-07-20,TRUE
+PROD0151,Rose Hip Face Oil X100,Beauty,VelvetTouch,PureFormula Ltd,71.24,2024-09-01,TRUE
+PROD0152,Collagen Eye Patches X100,Beauty,PureSkin,NaturalBlend Co,29.32,2020-01-29,TRUE
+PROD0153,Charcoal Pore Strips X100,Beauty,VelvetTouch,CosmeticsPro Inc,34.63,2023-02-07,TRUE
+PROD0154,Hyaluronic Toner X100,Beauty,LuminaBeauty,CosmeticsPro Inc,75.9,2020-07-29,TRUE
+PROD0155,BB Cream Natural X100,Beauty,GlowLab,PureFormula Ltd,35.77,2021-11-28,TRUE
+PROD0156,Lip Plumper Gloss X100,Beauty,PureSkin,BeautySource Ltd,32.16,2020-08-21,TRUE
+PROD0157,Brow Styling Gel X100,Beauty,GlowLab,GlowSupply Corp,59.31,2023-11-06,TRUE
+PROD0158,Setting Spray Long-Wear X100,Beauty,GlowLab,CosmeticsPro Inc,20.43,2021-09-14,TRUE
+PROD0159,Foundation Stick X100,Beauty,GlowLab,CosmeticsPro Inc,16.94,2023-05-26,TRUE
+PROD0160,Contour Palette X100,Beauty,VelvetTouch,PureFormula Ltd,29.12,2022-07-11,TRUE
+PROD0161,Vitamin C Serum 30ml V2,Beauty,NaturaCo,NaturalBlend Co,101.13,2021-09-17,TRUE
+PROD0162,Hydrating Face Mask V2,Beauty,VelvetTouch,PureFormula Ltd,10.34,2020-07-22,TRUE
+PROD0163,Retinol Night Cream V2,Beauty,PureSkin,CosmeticsPro Inc,33.54,2021-05-06,TRUE
+PROD0164,SPF 50 Sunscreen V2,Beauty,PureSkin,PureFormula Ltd,12.02,2022-07-11,FALSE
+PROD0165,Micellar Cleansing Water V2,Beauty,VelvetTouch,GlowSupply Corp,36.56,2023-12-18,TRUE
+PROD0166,Rose Hip Face Oil V2,Beauty,LuminaBeauty,GlowSupply Corp,11.58,2021-06-25,TRUE
+PROD0167,Collagen Eye Patches V2,Beauty,VelvetTouch,CosmeticsPro Inc,51.75,2023-08-19,TRUE
+PROD0168,Charcoal Pore Strips V2,Beauty,PureSkin,NaturalBlend Co,97.32,2020-12-05,TRUE
+PROD0169,Hyaluronic Toner V2,Beauty,LuminaBeauty,PureFormula Ltd,88.51,2021-08-14,TRUE
+PROD0170,BB Cream Natural V2,Beauty,NaturaCo,BeautySource Ltd,56.7,2022-04-04,TRUE
+PROD0171,Lip Plumper Gloss V2,Beauty,LuminaBeauty,PureFormula Ltd,64.79,2023-05-09,TRUE
+PROD0172,Brow Styling Gel V2,Beauty,GlowLab,GlowSupply Corp,86.87,2020-02-22,TRUE
+PROD0173,Setting Spray Long-Wear V2,Beauty,GlowLab,CosmeticsPro Inc,112.68,2023-03-24,TRUE
+PROD0174,Foundation Stick V2,Beauty,VelvetTouch,BeautySource Ltd,116.95,2021-07-05,TRUE
+PROD0175,Contour Palette V2,Beauty,VelvetTouch,BeautySource Ltd,90.11,2022-11-28,TRUE
+PROD0176,Resistance Band Set X100,Sports,ActiveCore,ActiveWear Ltd,47.02,2023-07-24,TRUE
+PROD0177,Yoga Mat Premium X100,Sports,ActiveCore,SportGear Global,110.64,2021-10-19,TRUE
+PROD0178,Adjustable Dumbbell X100,Sports,PeakFit,FitSupply Co,79.72,2021-08-13,TRUE
+PROD0179,Foam Roller Pro X100,Sports,ActiveCore,OutdoorEdge Corp,15.09,2021-05-31,TRUE
+PROD0180,Jump Rope Speed X100,Sports,PowerEdge,SportGear Global,220.93,2022-11-19,TRUE
+PROD0181,Gym Gloves Pro X100,Sports,PeakFit,OutdoorEdge Corp,108.87,2022-11-27,TRUE
+PROD0182,Protein Shaker Bottle X100,Sports,PowerEdge,OutdoorEdge Corp,173.8,2024-04-05,TRUE
+PROD0183,Pull-Up Bar Door X100,Sports,PeakFit,FitSupply Co,65.89,2021-08-12,TRUE
+PROD0184,Running Belt X100,Sports,ActiveCore,ProSports Inc,33.77,2023-05-31,TRUE
+PROD0185,Knee Support Brace X100,Sports,StridePro,FitSupply Co,75.52,2022-04-15,FALSE
+PROD0186,Swim Goggles Elite X100,Sports,PeakFit,FitSupply Co,225.79,2022-08-03,TRUE
+PROD0187,Cycling Gloves X100,Sports,PeakFit,FitSupply Co,116.89,2022-11-08,TRUE
+PROD0188,Ankle Weights Set X100,Sports,PowerEdge,ProSports Inc,191.06,2021-05-14,TRUE
+PROD0189,Balance Board X100,Sports,ActiveCore,OutdoorEdge Corp,38.89,2023-05-12,TRUE
+PROD0190,Trekking Poles X100,Sports,EliteMove,FitSupply Co,197.52,2024-06-05,TRUE
+PROD0191,Resistance Band Set V2,Sports,ActiveCore,ActiveWear Ltd,213.0,2024-08-07,TRUE
+PROD0192,Yoga Mat Premium V2,Sports,PeakFit,ActiveWear Ltd,167.09,2023-04-02,TRUE
+PROD0193,Adjustable Dumbbell V2,Sports,ActiveCore,FitSupply Co,105.46,2021-11-11,TRUE
+PROD0194,Foam Roller Pro V2,Sports,EliteMove,OutdoorEdge Corp,90.17,2024-11-15,TRUE
+PROD0195,Jump Rope Speed V2,Sports,StridePro,FitSupply Co,133.08,2024-05-07,TRUE
+PROD0196,Gym Gloves Pro V2,Sports,ActiveCore,SportGear Global,77.16,2024-07-19,TRUE
+PROD0197,Protein Shaker Bottle V2,Sports,ActiveCore,ProSports Inc,224.95,2023-08-28,TRUE
+PROD0198,Pull-Up Bar Door V2,Sports,StridePro,ProSports Inc,219.74,2023-04-23,TRUE
+PROD0199,Running Belt V2,Sports,PowerEdge,SportGear Global,199.76,2022-12-13,TRUE
+PROD0200,Knee Support Brace V2,Sports,ActiveCore,SportGear Global,166.3,2023-09-02,TRUE

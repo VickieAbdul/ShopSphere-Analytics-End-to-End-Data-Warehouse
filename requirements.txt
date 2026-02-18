@@ -1,0 +1,21 @@
+# ShopSphere Analytics - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Snowflake connector
+snowflake-connector-python==3.6.0
+
+# Data manipulation
+pandas==2.1.4
+numpy==1.26.2
+
+# Visualization libraries
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+
+# For saving plotly charts as images
+kaleido==0.2.1
+
+# Optional: Jupyter notebook support
+# jupyter==1.0.0
+# ipykernel==6.27.1
