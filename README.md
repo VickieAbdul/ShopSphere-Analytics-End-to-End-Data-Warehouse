@@ -87,7 +87,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 - **Repeat Purchase Rate:** 38.8 orders per customer
 
 ### Regional Profitability
-<img width="1007" height="380" alt="image" src="https://github.com/user-attachments/assets/cff19ce9-52b8-43e2-afab-0539dd6617a3" />
+<img width="1014" height="391" alt="image" src="https://github.com/user-attachments/assets/65c2c203-8765-4d58-9d84-2bbb6d65bcd0" />
 
 - All 5 regions are profitable
 - Profit margins range from 35-42%
@@ -102,7 +102,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 - **Revenue vs Volume Analysis:** Electronics brings less volume but more profit
 
 ### Discount Impact
-<img width="724" height="423" alt="image" src="https://github.com/user-attachments/assets/8be46c46-b5c1-4a09-ae34-31dd050b0f01" />
+<img width="731" height="426" alt="image" src="https://github.com/user-attachments/assets/af5a4fb3-c4ca-4ba4-a212-ba13c65b51ff" />
 
 - **Finding:** Discounting does NOT significantly hurt margins
 - 21-30% discounts still maintain 35%+ profit margins
@@ -110,7 +110,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 - **Recommendation:** Current discount strategy is sustainable
 
 ### Customer Segmentation
-<img width="849" height="424" alt="image" src="https://github.com/user-attachments/assets/07de509a-64fb-4f6e-832d-79213e212f4e" />
+<img width="850" height="428" alt="image" src="https://github.com/user-attachments/assets/0971995c-db6f-4b86-b28d-e9dc5216708f" />
 
 - **Premium Customers:** 22% of base (110 customers) generate 45% of CLV
 - **Regular Customers:** 33% of base (165 customers) generate 35% of CLV
@@ -118,7 +118,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 - **Pareto Principle Validated:** Top 22% drive nearly half the revenue
 
 ### Churn Risk
-<img width="604" height="423" alt="image" src="https://github.com/user-attachments/assets/061843bd-cafb-4bfb-aba0-6a31779ee46d" />
+<img width="608" height="428" alt="image" src="https://github.com/user-attachments/assets/c56809eb-ca83-4608-aaa1-f2023b4ac3d4" />
 
 - **Excellent News:** 98.8% of customers are low-risk (active)
 - Only 6 customers (1.2%) at medium risk
@@ -248,7 +248,7 @@ Execute queries in `/analysis/` folder to answer business questions
 
 ---
 
-## 📊 Sample Queries
+## Sample Queries
 
 ### Query 1: Regional Profitability Analysis
 ```sql
@@ -351,7 +351,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - **Snowflake** for providing an excellent cloud data warehouse platform
 - **Kimball Group** for dimensional modeling methodology
-- **dbt Labs** for modern analytics engineering principles
 
 ---
 
