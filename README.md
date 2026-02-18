@@ -158,30 +158,14 @@ ShopSphere-Analytics/
 │   └── products.csv
 │
 ├── sql/                               # SQL scripts by layer
-│   ├── 01_raw_layer/
-│   │   ├── create_tables.sql
-│   │   └── load_data.sql
-│   ├── 02_staging_layer/
-│   │   └── create_staging_tables.sql
-│   ├── 03_clean_layer/
-│   │   ├── data_quality_audit.sql
-│   │   └── create_clean_tables.sql
-│   ├── 04_analytics_layer/
-│   │   ├── fact_sales.sql
-│   │   └── dim_customer_segments.sql
-│   └── 05_mart_layer/
-│       ├── mart_regional_performance.sql
-│       ├── mart_product_performance.sql
-│       ├── mart_discount_impact.sql
-│       ├── mart_customer_segments.sql
-│       └── mart_retention_metrics.sql
+│   ├── raw_verify.sql
+│   ├── staging.sq
+│   ├── clean.sql
+│   ├──analytics.sql
+│   └── mart.sql
 │
 ├── analysis/                          # Business analysis queries
-│   ├── ceo_question_1_regional_profitability.sql
-│   ├── ceo_question_2_product_performance.sql
-│   ├── ceo_question_3_discount_impact.sql
-│   ├── ceo_question_4_customer_segments.sql
-│   └── ceo_question_5_churn_analysis.sql
+│   └── ceo_questions_1 - 5.sql
 │
 ├── visualizations/                    # Generated charts
 │   ├── generate_visualizations.py
@@ -191,11 +175,7 @@ ShopSphere-Analytics/
 │       ├── discount_impact.png
 │       ├── customer_segments.png
 │       └── churn_risk.png
-│
-└── docs/
-    ├── architecture_decisions.md
-    ├── data_quality_report.md
-    └── business_insights.md
+
 ```
 
 ---
