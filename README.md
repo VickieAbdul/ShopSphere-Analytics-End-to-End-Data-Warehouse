@@ -76,7 +76,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 
 ---
 
-## 📈 Key Business Insights
+## Key Business Insights
 
 ### Overall Performance
 - **Total Revenue:** $55.26M across 19,422 transactions
@@ -88,6 +88,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 
 ### Regional Profitability
 <img width="1007" height="380" alt="image" src="https://github.com/user-attachments/assets/cff19ce9-52b8-43e2-afab-0539dd6617a3" />
+
 - All 5 regions are profitable
 - Profit margins range from 35-42%
 - North America leads in total revenue
@@ -95,12 +96,14 @@ This is a production-grade analytics engineering project demonstrating enterpris
 
 ### Product Performance
 <img width="595" height="425" alt="image" src="https://github.com/user-attachments/assets/90efc680-13a9-44e0-9acf-509c71779374" />
+
 - **Electronics:** Drives 35% of revenue (highest margin category)
 - **Fashion:** Drives 25% of revenue (highest volume)
 - **Revenue vs Volume Analysis:** Electronics brings less volume but more profit
 
 ### Discount Impact
 <img width="724" height="423" alt="image" src="https://github.com/user-attachments/assets/8be46c46-b5c1-4a09-ae34-31dd050b0f01" />
+
 - **Finding:** Discounting does NOT significantly hurt margins
 - 21-30% discounts still maintain 35%+ profit margins
 - No discount orders have 41% margin vs 35% for discounted
@@ -108,6 +111,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 
 ### Customer Segmentation
 <img width="849" height="424" alt="image" src="https://github.com/user-attachments/assets/07de509a-64fb-4f6e-832d-79213e212f4e" />
+
 - **Premium Customers:** 22% of base (110 customers) generate 45% of CLV
 - **Regular Customers:** 33% of base (165 customers) generate 35% of CLV
 - **Budget Customers:** 45% of base (225 customers) generate 20% of CLV
@@ -115,6 +119,7 @@ This is a production-grade analytics engineering project demonstrating enterpris
 
 ### Churn Risk
 <img width="604" height="423" alt="image" src="https://github.com/user-attachments/assets/061843bd-cafb-4bfb-aba0-6a31779ee46d" />
+
 - **Excellent News:** 98.8% of customers are low-risk (active)
 - Only 6 customers (1.2%) at medium risk
 - 0 customers at high risk
@@ -130,38 +135,6 @@ This is a production-grade analytics engineering project demonstrating enterpris
 - **Visualization:** Python (matplotlib, plotly, pandas)
 - **Data Volume:** 20,000+ transactions, 500 customers, 200 products
 - **Geographic Coverage:** 8 countries across 5 regions
-
-### Advanced SQL Techniques Demonstrated
-
-1. **Window Functions**
-   - `ROW_NUMBER()` for deduplication
-   - `RANK()` for performance ranking
-   - `PERCENTILE_CONT()` for segmentation thresholds
-
-2. **CTEs (Common Table Expressions)**
-   - Multi-step transformations
-   - Improved query readability
-   - Modular logic building
-
-3. **Data Quality Functions**
-   - `TRY_TO_DATE()` for safe type casting
-   - `COALESCE()` for NULL handling
-   - `NULLIF()` for division-by-zero prevention
-
-4. **Complex CASE Statements**
-   - Multi-format date standardization
-   - Customer segmentation logic
-   - Churn risk classification
-
-5. **Aggregation & Analytics**
-   - `MODE()` for finding most frequent values
-   - `DATEDIFF()` for time-based calculations
-   - Percentage calculations with window functions
-
-6. **Join Strategies**
-   - LEFT JOIN for dimension enrichment
-   - CROSS JOIN for percentile application
-   - Fact-dimension star schema implementation
 
 ---
 
@@ -350,44 +323,6 @@ ORDER BY
 ```
 
 **Business Answer:** "Excellent retention: 98.8% of customers are active (low risk). Only 6 customers need re-engagement campaigns."
-
----
-
-## 💡 Key Learning Outcomes
-
-This project demonstrates proficiency in:
-
-**Enterprise Data Warehouse Design**
-- Multi-layer architecture (RAW → STAGING → CLEAN → ANALYTICS → MART)
-- Separation of concerns (structure vs quality vs business logic)
-- Audit trails and metadata tracking
-
-**Data Quality Engineering**
-- Handling duplicate records (deduplication strategy)
-- NULL value treatment (business-driven decisions)
-- Invalid data removal (negative quantities)
-- Data profiling and quality metrics
-
-**Dimensional Modeling**
-- Star schema implementation (fact + dimension tables)
-- Slowly Changing Dimensions (Type 2 approach ready)
-- Grain definition and surrogate key management
-
-**Advanced SQL Skills**
-- Window functions, CTEs, complex joins
-- Safe type casting and error handling
-- Performance optimization through proper indexing
-
-**Business Analytics**
-- RFM (Recency, Frequency, Monetary) segmentation
-- Customer Lifetime Value (CLV) calculation
-- Churn prediction and risk scoring
-- Profitability analysis by multiple dimensions
-
- **Communication & Documentation**
-- Translating business questions into SQL queries
-- Data-driven storytelling and insights
-- Executive-level reporting and KPIs
 
 ---
 
