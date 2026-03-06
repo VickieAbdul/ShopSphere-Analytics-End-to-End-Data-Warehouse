@@ -4,7 +4,7 @@
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 
-## 📊 Project Overview
+## Project Overview
 
 A production-grade analytics engineering project demonstrating enterprise data warehouse design for a fictional global e-commerce company (ShopSphere). This project showcases the complete data lifecycle from raw ingestion to executive-ready KPI dashboards, following industry best practices for data modeling, quality assurance, and business intelligence.
 
@@ -12,7 +12,7 @@ A production-grade analytics engineering project demonstrating enterprise data w
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 **Company:** ShopSphere - Global e-commerce company selling Electronics, Fashion, Home, Beauty, and Sports products across North America, Europe, Asia-Pacific, Latin America, and Middle East.
 
@@ -28,7 +28,7 @@ A production-grade analytics engineering project demonstrating enterprise data w
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### 5-Layer Data Warehouse Design
 
@@ -80,7 +80,7 @@ A production-grade analytics engineering project demonstrating enterprise data w
 
 ---
 
-## 📈 Key Business Insights
+## Key Business Insights
 
 ### Overall Performance
 - **Total Revenue:** $55.26M across 19,422 transactions
@@ -126,7 +126,7 @@ A production-grade analytics engineering project demonstrating enterprise data w
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Technologies Used
 - **Database:** Snowflake Cloud Data Warehouse
@@ -135,41 +135,7 @@ A production-grade analytics engineering project demonstrating enterprise data w
 - **Data Volume:** 20,000+ transactions, 500 customers, 200 products
 - **Geographic Coverage:** 8 countries across 5 regions
 
-### Advanced SQL Techniques Demonstrated
-
-1. **Window Functions**
-   - `ROW_NUMBER()` for deduplication
-   - `RANK()` for performance ranking
-   - `PERCENTILE_CONT()` for segmentation thresholds
-
-2. **CTEs (Common Table Expressions)**
-   - Multi-step transformations
-   - Improved query readability
-   - Modular logic building
-
-3. **Data Quality Functions**
-   - `TRY_TO_DATE()` for safe type casting
-   - `COALESCE()` for NULL handling
-   - `NULLIF()` for division-by-zero prevention
-
-4. **Complex CASE Statements**
-   - Multi-format date standardization
-   - Customer segmentation logic
-   - Churn risk classification
-
-5. **Aggregation & Analytics**
-   - `MODE()` for finding most frequent values
-   - `DATEDIFF()` for time-based calculations
-   - Percentage calculations with window functions
-
-6. **Join Strategies**
-   - LEFT JOIN for dimension enrichment
-   - CROSS JOIN for percentile application
-   - Fact-dimension star schema implementation
-
----
-
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ShopSphere-Analytics/
@@ -231,7 +197,7 @@ ShopSphere-Analytics/
 
 ---
 
-## 🚀 How to Replicate This Project
+## How to Replicate This Project
 
 ### Prerequisites
 - Snowflake account (free trial available)
@@ -279,150 +245,7 @@ Execute queries in `/analysis/` folder to answer business questions
 
 ---
 
-## 📊 Sample Queries
-
-### Query 1: Regional Profitability Analysis
-```sql
-SELECT 
-    region,
-    net_revenue,
-    gross_profit,
-    overall_profit_margin_pct,
-    profit_rank
-FROM SCHEMA_MART.MART_REGIONAL_PERFORMANCE
-ORDER BY gross_profit DESC;
-```
-
-**Business Answer:** "All regions are profitable. North America leads with $X in profit, followed by Europe. Middle East has the highest margin at 42%."
-
-### Query 2: Product Revenue vs Volume
-```sql
-SELECT 
-    product_category,
-    revenue_contribution_pct,
-    volume_contribution_pct,
-    revenue_rank,
-    volume_rank
-FROM SCHEMA_MART.MART_PRODUCT_PERFORMANCE
-ORDER BY net_revenue DESC;
-```
-
-**Business Answer:** "Electronics drives 35% of revenue but only 25% of volume - it's our most profitable category per unit."
-
-### Query 3: Discount Impact on Margins
-```sql
-SELECT 
-    discount_bucket,
-    total_orders,
-    avg_profit_margin_pct,
-    revenue_per_order
-FROM SCHEMA_MART.MART_DISCOUNT_IMPACT
-ORDER BY discount_bucket;
-```
-
-**Business Answer:** "Discounting is not hurting margins significantly. Even 21-30% discounts maintain 35%+ profit margins. Strategy is sustainable."
-
-### Query 4: Customer Segment Value
-```sql
-SELECT 
-    customer_segment,
-    total_customers,
-    avg_clv_per_customer,
-    clv_contribution_pct,
-    avg_orders_per_customer
-FROM SCHEMA_MART.MART_CUSTOMER_SEGMENTS
-ORDER BY total_clv DESC;
-```
-
-**Business Answer:** "Premium customers (22% of base) generate 45% of total CLV with $XXX average value. Focus retention efforts here."
-
-### Query 5: Churn Risk Assessment
-```sql
-SELECT 
-    churn_risk,
-    total_customers,
-    pct_of_customer_base,
-    total_clv_at_risk,
-    premium_customers
-FROM SCHEMA_MART.MART_RETENTION_METRICS
-ORDER BY 
-    CASE churn_risk
-        WHEN 'High Risk' THEN 1
-        WHEN 'Medium Risk' THEN 2
-        ELSE 3
-    END;
-```
-
-**Business Answer:** "Excellent retention: 98.8% of customers are active (low risk). Only 6 customers need re-engagement campaigns."
-
----
-
-## 💡 Key Learning Outcomes
-
-This project demonstrates proficiency in:
-
-✅ **Enterprise Data Warehouse Design**
-- Multi-layer architecture (RAW → STAGING → CLEAN → ANALYTICS → MART)
-- Separation of concerns (structure vs quality vs business logic)
-- Audit trails and metadata tracking
-
-✅ **Data Quality Engineering**
-- Handling duplicate records (deduplication strategy)
-- NULL value treatment (business-driven decisions)
-- Invalid data removal (negative quantities)
-- Data profiling and quality metrics
-
-✅ **Dimensional Modeling**
-- Star schema implementation (fact + dimension tables)
-- Slowly Changing Dimensions (Type 2 approach ready)
-- Grain definition and surrogate key management
-
-✅ **Advanced SQL Skills**
-- Window functions, CTEs, complex joins
-- Safe type casting and error handling
-- Performance optimization through proper indexing
-
-✅ **Business Analytics**
-- RFM (Recency, Frequency, Monetary) segmentation
-- Customer Lifetime Value (CLV) calculation
-- Churn prediction and risk scoring
-- Profitability analysis by multiple dimensions
-
-✅ **Communication & Documentation**
-- Translating business questions into SQL queries
-- Data-driven storytelling and insights
-- Executive-level reporting and KPIs
-
----
-
-## 🎓 Interview Talking Points
-
-When presenting this project in interviews, highlight:
-
-1. **Business Impact First**
-   - "This project enabled data-driven decision making for a global e-commerce company"
-   - "Answered 5 critical CEO questions affecting $55M in annual revenue"
-
-2. **Technical Depth**
-   - "Implemented enterprise-grade 5-layer architecture following Kimball methodology"
-   - "Handled real-world data quality issues: duplicates, inconsistent formats, NULL values"
-
-3. **Scalability Thinking**
-   - "Designed for production: RAW layer never touched, STAGING standardizes, CLEAN validates"
-   - "MART layer optimized for BI tools - sub-second query performance"
-
-4. **Problem-Solving Approach**
-   - "Identified 386 duplicate transactions through data profiling"
-   - "Made justified business decisions: replaced NULL discounts with 0 vs deleting rows"
-
-5. **Cross-Functional Collaboration**
-   - "ANALYTICS layer serves data analysts writing custom SQL"
-   - "MART layer serves business users via Tableau/Power BI dashboards"
-   - "Different stakeholders, different needs - designed for both"
-
----
-
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential extensions to demonstrate additional skills:
 
@@ -437,23 +260,25 @@ Potential extensions to demonstrate additional skills:
 
 ---
 
-## 📞 Contact
+## Contact
 
-**[Your Name]**
-- LinkedIn: [Your LinkedIn URL]
-- GitHub: [Your GitHub Profile]
-- Email: [Your Email]
-- Portfolio: [Your Portfolio Website]
+**Victoria Abdul**  
+Data Analyst | Snowflake | Analytics Engineering
+
+- Email: victoria.j.abdulkadir@gmail.com
+- LinkedIn: [linkedin.com/in/victoria-abdul](https://www.linkedin.com/in/victoriajabdul/)
+- GitHub: [github.com/vickieabdul](https://github.com/vickieabdul)
+
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Snowflake** for providing an excellent cloud data warehouse platform
 - **Kimball Group** for dimensional modeling methodology
