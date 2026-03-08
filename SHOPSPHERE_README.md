@@ -83,3 +83,31 @@ Built five dedicated mart tables, one per business question, pre-aggregated and 
 ShopSphere is a profitable, well-distributed business with a clear revenue structure and a healthy customer base. The data warehouse built in this project gives leadership the visibility they were missing, and the insights it surfaces are actionable. The business should double down on Electronics margins, protect its Premium customers, and feel confident that its discounting strategy is not doing the damage that was feared.
 
 The infrastructure is now in place for ShopSphere to make faster, more confident decisions at every level of the organisation.
+
+## Contact
+
+**Victoria Abdul**  
+Data Analyst | Snowflake | Analytics Engineering
+
+- Email: victoria.j.abdulkadir@gmail.com
+- LinkedIn: [linkedin.com/in/victoria-abdul](https://www.linkedin.com/in/victoriajabdul/)
+- GitHub: [github.com/vickieabdul](https://github.com/vickieabdul)
+
+
+---
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## Acknowledgments
+
+- **Snowflake** for providing an excellent cloud data warehouse platform
+- **Kimball Group** for dimensional modeling methodology
+- **dbt Labs** for modern analytics engineering principles
+
+---
+
+**⭐ If you found this project helpful, please give it a star!**
