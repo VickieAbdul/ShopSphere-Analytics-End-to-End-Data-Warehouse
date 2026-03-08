@@ -84,6 +84,23 @@ ShopSphere is a profitable, well-distributed business with a clear revenue struc
 
 The infrastructure is now in place for ShopSphere to make faster, more confident decisions at every level of the organisation.
 
+---
+
+## Future Enhancements
+
+Potential extensions to demonstrate additional skills:
+
+- **dbt Implementation** - Refactor SQL into dbt models with testing and documentation
+- **Incremental Loads** - Add date-based incremental processing for STAGING layer
+- **Data Quality Tests** - Implement Great Expectations or dbt tests
+- **Orchestration** - Add Airflow DAGs for scheduled execution
+- **Advanced Analytics** - Customer cohort analysis, product recommendation logic
+- **Machine Learning** - Churn prediction model, CLV forecasting
+- **Real-Time Layer** - Stream processing with Kafka + Snowpipe
+- **Dashboard Development** - Build Tableau/Power BI dashboards
+
+---
+
 ## Contact
 
 **Victoria Abdul**  
@@ -92,7 +109,6 @@ Data Analyst | Snowflake | Analytics Engineering
 - Email: victoria.j.abdulkadir@gmail.com
 - LinkedIn: [linkedin.com/in/victoria-abdul](https://www.linkedin.com/in/victoriajabdul/)
 - GitHub: [github.com/vickieabdul](https://github.com/vickieabdul)
-
 
 ---
 
@@ -105,7 +121,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - **Snowflake** for providing an excellent cloud data warehouse platform
-- **Kimball Group** for dimensional modeling methodology
+- **Claude AI** for generating the data used for this
 - **dbt Labs** for modern analytics engineering principles
 
 ---
